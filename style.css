@@ -4,7 +4,8 @@
     border: 1px solid red;
     transition: background-color 5s;
 }
-.ex-1-square:hover{
+
+.ex-1-square:hover {
     background-color: red;
 }
 
@@ -13,24 +14,60 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: width 5s;
 }
+
+.ex-2-square:hover {
+    width: 200px;
+}
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: border-radius 5s;
 }
+
+.ex-3-square:hover {
+    border-radius: 50%;
+
+
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: opacity 5s;
 }
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    transition: width height 5s;
 }
-.ex-6-img, .ex-7-img, .ex-8-img {
+
+.ex-5-square:hover {
+    width: 120px;
+    height: 120px;
+}
+
+.ex-5-square:active {
+    width: 30px;
+    height: 30px;
+}
+
+
+.ex-6-img,
+.ex-7-img,
+.ex-8-img {
     width: 500px;
 }
 
@@ -38,13 +75,17 @@
     margin: 50px 100px;
     width: 400px;
 }
+
 .ex-10-icon {
     font-size: 60px;
 }
+
 .ex-11-icon {
     font-size: 60px;
 }
-.ex-12-button, .ex-13-button {
+
+.ex-12-button,
+.ex-13-button {
     position: relative;
     display: block;
     width: 200px;
@@ -57,7 +98,9 @@
     text-align: center;
     text-decoration: none;
 }
-.ex-12-top-white, .ex-13-top-white {
+
+.ex-12-top-white,
+.ex-13-top-white {
     position: absolute;
     top: -10px;
     left: 10%;
@@ -65,7 +108,9 @@
     width: 60px;
     height: 20px;
 }
-.ex-12-bottom-white, .ex-13-bottom-white {
+
+.ex-12-bottom-white,
+.ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
     right: 20%;
